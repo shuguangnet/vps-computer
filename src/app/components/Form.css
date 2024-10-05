@@ -1,0 +1,74 @@
+.vps-form {
+  width: 100%;
+  max-width: 400px;
+  /* margin: 0 auto; */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.vps-form label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.vps-form input, 
+.vps-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s, border-color 0.3s;
+	color:#333;
+}
+
+.vps-form input:focus,
+.vps-form select:focus {
+  background-color: #fff;
+  border-color: #999;
+  outline: none;
+}
+
+.vps-form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(24, 20, 20);
+  background-color: #f77b72;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.vps-form button:hover {
+  background-color: #f5534b;
+}
+
+.vps-form button:active {
+  background-color: #e24639;
+}
+
+.vps-form div {
+  margin-bottom: 20px;
+}
+
+.vps-form select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="none" stroke="gray" d="M2 0L0 2h4z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px;
+}
+
